@@ -23,7 +23,7 @@ const posts = [
   },
   {
     id: "3",
-    title: "Mastering TypeScript: A JavaScript Enhancement",
+    title: "Mastering TypeScript:JavaScript Enhancement",
     description: "TypeScript is a strongly-typed, object-oriented, compiled superset of JavaScript that adds static types to the language. Developed by Microsoft, TypeScript aims to enhance the development process by introducing a static type system that helps detect errors at compile-time rather than during runtime, making code more reliable and maintainable. In TypeScript, developers can explicitly define types for variables, function parameters, and return values, as well as use advanced features like interfaces, enums, tuples, and generics to create more robust and reusable code. TypeScript also fully supports modern JavaScript features, such as ES6 classes, modules, async/await, and arrow functions, while ensuring compatibility with existing JavaScript code. By compiling TypeScript code into standard JavaScript, developers can run it in any browser or JavaScript environment. The language also integrates well with popular code editors like Visual Studio Code, offering features like auto-completion, intellisense, and type inference to improve developer productivity. As TypeScript code scales, its features help improve the organization, readability, and maintainability of large codebases, making it especially valuable for complex, enterprise-level applications.",
     image: "/images/blog3.jpg",
   },
@@ -98,7 +98,7 @@ export default function Post({ params }: { params: { id: string } }) {
          
         />
       )}
-      <div className="mt-6 text-lg text-slate-700">
+      <div className="mt-6 text-lg  text-slate-700">
         {renderParagraphs(post.description)}
       </div>
       <CommentSection postId={post.id} />

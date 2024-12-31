@@ -7,8 +7,8 @@ export default function Mega() {
   const posts = [
     {
       id: "1",
-      title: "Mastering HTML:Foundation of Web Development",
-      description: "HTML (HyperText Markup Language) is the standard language used to structure web pages and web applications. It defines the basic framework of a webpage using tags ...",
+      title: " HTML:Foundation of Web Development",
+      description: "HTML (HyperText Markup Language) is the standard language used to structure web pages and web applications. It defines the basic framework webpage.HTML uses a system of tags and attributes to define elements like headings, paragraphs, links... ",
       date: "2024-11-29",
       imageUrl: "/images/blog1.avif",
     },
@@ -16,14 +16,14 @@ export default function Mega() {
     {
       id: "2",
       title: "Styling the Web: Unlocking the Power of CSS",
-      description: "CSS (Cascading Style Sheets) is a language used to design and control the visual presentation of web pages, working alongside HTML to  content from styling.  Tags, tell the browser ...",
+      description: "CSS (Cascading Style Sheets) is a language used to design and control the visual presentation of web pages, working alongside HTML to  content from styling. It enables developers to style elements such as colors, fonts,backgrounds, borders, spacing, ",
       date: "2024-11-29",
      imageUrl:"/images/blog2.jpg",
     },
     {
       id: "3",
-      title: "Mastering TypeScript: A JavaScript Enhancement",
-      description: "TypeScript is a strongly-typed, object-oriented, compiled superset of JavaScript that adds static types to the language. Developed by Microsoft, TypeScript aims to enhance the development ...",
+      title: " TypeScript:A JavaScript Enhancement",
+      description: "TypeScript is a strongly-typed, object-oriented, compiled superset of JavaScript that adds static types to the language. Developed by Microsoft, TypeScript aims to enhance the development.process by introducing a static type system that helps detect.... ",
       date: "2024-11-29",
   imageUrl:"/images/blog3.jpg",
     },
@@ -37,7 +37,7 @@ export default function Mega() {
     {
       id: "5",
       title: "Next.js: The Future of Web Development",
-      description: "Next.js is a popular, open-source framework built on top of React that enables developers to build fast, scalable, and SEO-friendly web applications with ease...",
+      description: "Next.js is a popular, open-source framework built on top of React that enables developers to build fast, scalable, and SEO-friendly web applications with ease.It provides a set of features out of the box.....",
       date: "2024-11-29",
   imageUrl:"/images/blog5.png",
     },
@@ -78,7 +78,7 @@ export default function Mega() {
         Exploring The Blog
       </h1>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8" >
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 " >
         {posts.map((post, index)=>(
           <div className="fade-in " data-aos="fade-up" key={post.id}>
             <div className="blog-card">

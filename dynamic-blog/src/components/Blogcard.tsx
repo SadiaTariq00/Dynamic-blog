@@ -34,7 +34,7 @@ export default function Blogcard({ post, isDarkBackground }: BlogCardProps) {
         {post.title}
       </CardTitle>
       <br />
-      <CardContent className="text-center">
+      <CardContent className="text-start text-sm">
         <p>{post.description}</p>
       </CardContent>
 
