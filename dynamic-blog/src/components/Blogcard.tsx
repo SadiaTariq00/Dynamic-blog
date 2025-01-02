@@ -48,7 +48,7 @@ export default function Blogcard({ post, isDarkBackground }: BlogCardProps) {
         </p>
         <a
           href={`/posts/${post.id}`}
-          className={`h-10 w-40 px-10 py-2 text-white bg-blue-600 rounded-3xl hover:bg-blue-500 ${
+          className={`h-10 w-30 px-6 py-2 text-white bg-blue-600 rounded-3xl hover:bg-blue-500 ${
             isDarkBackground
               ? "bg-black hover:bg-orange-400 "
               : "bg-black hover:bg-orange-400"
